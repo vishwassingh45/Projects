@@ -1,0 +1,136 @@
+@font-face {
+    font-family: random;
+    src: url(./Random.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: random;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #ECF0F3;
+    /* position: relative; */
+}
+.nav img{
+    width: 120px;
+}
+.nav{
+    
+    width: 100%;
+    height: 5vw;
+    background-color: #ECF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+
+
+ 
+}
+.nav-part2{
+    display: flex;
+    gap:30px
+}
+.nav-part2 hr{
+    background-color:  black;
+}
+.nav-part2 h4{
+    font-size: 1.3vw;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: #ECF0F3;
+    display: flex;
+    
+    
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 10vw 7vw;
+   
+ 
+}
+.box1 h2{
+    font-size: 2.5vw;
+}
+.box1 p{
+   padding: 1vw 0;
+}
+.box1 input{
+    padding: 1vw 0;
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing: 15px;
+    border-radius: 10px;
+    border:none;
+ box-shadow: 2px 2px 10px rgb(212, 204, 212);
+
+}
+.box1 button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 290px;
+    margin-top: 20px;
+ background-color: white;
+ box-shadow: 2px 2px 10px rgb(212, 204, 212);
+
+
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.page2{
+    width: 100%;
+    height: 40%;
+    background-color: #ECF0F3;
+    border-top:1px solid #BAC1C6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.one h5{
+  font-size: 1.5vw;
+  color: #777F86;
+}
+.one button{
+    margin-top:12px;
+padding: 10px 30px;
+font-size: 20px;
+background-color: white;
+border-radius: 10px;
+letter-spacing: 10px;
+border: none;
+box-shadow: 2px 2px 10px rgb(212, 204, 212);
+
+}
+.one button i{
+    /* padding-left: 10px; */color: blue;
+}
+.w ,.a{
+ /* box-shadow: 2px 2px 10px rgb(212, 204, 212); */
+ color: #777F86;
+}
+.o,.p,.q{
+    color: #777F86;
+}
